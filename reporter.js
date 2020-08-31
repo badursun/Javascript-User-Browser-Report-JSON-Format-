@@ -13,7 +13,7 @@ let UserInformation = {
 		Result.timeStamp = (new Date()).toString();
 
 		return Result;		
-		return JSON.stringify( Result);			
+		// return JSON.stringify( Result);			
 	},
 	operatingSytem: function() {
 	    var OSName = "Unknown OS";
